@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+header{
+    height: 100px;
+    line-height: 100px;
+    /* formas de alinhar o texto verticalmente:
+        line-height: 100px;
+        transform: translateY(50%);
+    */
+}
+main{
+    flex-grow: 1;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 40px;
+}
+footer{
+    height: 50px;
+}
